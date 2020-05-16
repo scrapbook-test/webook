@@ -12,9 +12,10 @@
     }
   }
   #editor {
+    $editor-square-size: 600px;
     border: 1px dotted #ccc;
-    height: 500px;
-    width: 500px;
+    width: #{$editor-square-size * 2};
+    height: $editor-square-size;
     > tcc-editor-element-projection {
       $box-padding: 4px 8px;
       $box-border-transition-time: 0.25s;
@@ -27,7 +28,7 @@
       padding: $box-padding;
       border: solid 1px rgba(0, 0, 0, 0);
       transition: border-bottom-color $box-border-transition-time, border-left-color $box-border-transition-time,
-      border-right-color $box-border-transition-time, border-top-color $box-border-transition-time;
+        border-right-color $box-border-transition-time, border-top-color $box-border-transition-time;
 
       &:hover {
         border-color: #ccc;
@@ -42,4 +43,12 @@
       }
     }
   }
+}
+
+#editor {
+  position: relative;
+}
+
+*[draggable="true"] {
+  position: absolute;
 }

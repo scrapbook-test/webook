@@ -6,6 +6,7 @@ import { AngularDraggableModule } from 'angular2-draggable';
 import { NzButtonModule } from 'ng-zorro-antd/button';
 import { NzLayoutModule } from 'ng-zorro-antd/layout';
 
+import { DraggableComponentDirective } from './directives/draggable-component.directive';
 import {
   TccEditorElementProjectionComponent,
 } from './tcc-editor-element-projection/tcc-editor-element-projection.component';
@@ -23,7 +24,8 @@ import { TccEditorService } from './tcc-editor.service';
     TccEditorElementProjectionComponent,
     TccEditorElementProjectionDirective,
     TccEditorToolboxComponent,
-    TccEditorPropertiesComponent
+    TccEditorPropertiesComponent,
+    DraggableComponentDirective
   ],
   imports: [
     CommonModule,

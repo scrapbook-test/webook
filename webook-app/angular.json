@@ -166,9 +166,9 @@
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/angular2-draggable/css/resizable.min.css",
               "src/theme.less",
-              "src/styles.scss",
-              "node_modules/angular2-draggable/css/resizable.min.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -241,9 +241,9 @@
             ],
             "styles": [
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/angular2-draggable/css/resizable.min.css",
               "src/theme.less",
-              "src/styles.scss",
-              "node_modules/angular2-draggable/css/resizable.min.css"
+              "src/styles.scss"
             ],
             "scripts": []
           }
